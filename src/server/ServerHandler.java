@@ -68,7 +68,7 @@ public class ServerHandler implements Runnable {
                 TimeUnit.MILLISECONDS.toHours(dateFinish - dateStart) + ":" +
                 TimeUnit.MILLISECONDS.toMinutes(dateFinish - dateStart) + ":" +
                 TimeUnit.MILLISECONDS.toSeconds(dateFinish - dateStart);
-        mess += "Accept command as 'quit'\n";
+        mess += "\nAccept command as 'quit'\n";
         mess += "\n~";
         out.println(mess);
         out.flush();
